@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/php-framework",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "A",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "scripts": {
+    "auto-load": "composer dump-autoload"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Framework\\": "lib/"
+    }
+  }
+}
